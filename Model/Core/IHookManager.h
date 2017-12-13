@@ -23,7 +23,7 @@ class IHookManager
 		 * @param function The function to call when triggered.
 		 * @param priority The call priority.
 		 */
-		virtual void addHook(HookType type, function<> function, float priority) = 0;
+		virtual void addHook(HookType type, Hook hook, float priority) = 0;
 		
 		/**
 		 * Trigger pipeline on a new connection.
