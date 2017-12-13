@@ -15,7 +15,7 @@ class IHookManager
 		/**
 		 * Return the IHookManager instance.
 		 */
-		virtual static IHookManager getInstance() = 0;
+		virtual static IHookManager& getInstance() = 0;
 		
 		/**
 		 * Add a method to a hooks list.
